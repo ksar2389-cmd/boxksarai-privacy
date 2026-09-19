@@ -1,0 +1,286 @@
+<title>Terms of Use BoxKsarAI</title>
+<style>
+  :root {
+    --bg: #faf8f4;
+    --surface: #ffffff;
+    --ink: #241d17;
+    --ink-soft: #6b5f53;
+    --border: #e6ddd1;
+    --accent: #c8532b;
+    --accent-soft: #f3e2d6;
+    --code-bg: #f1ece3;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #1a1512;
+      --surface: #221b16;
+      --ink: #f0e9e0;
+      --ink-soft: #b6a998;
+      --border: #3a2f26;
+      --accent: #e17a4f;
+      --accent-soft: #3a2a1f;
+      --code-bg: #2a2119;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #1a1512;
+    --surface: #221b16;
+    --ink: #f0e9e0;
+    --ink-soft: #b6a998;
+    --border: #3a2f26;
+    --accent: #e17a4f;
+    --accent-soft: #3a2a1f;
+    --code-bg: #2a2119;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    margin: 0;
+    padding: 0 16px;
+    font-family: "IBM Plex Sans", -apple-system, sans-serif;
+    line-height: 1.6;
+  }
+  h1, h2, h3 { font-family: "Source Serif 4", Georgia, serif; text-wrap: balance; }
+  .wrap { max-width: 720px; margin: 0 auto; padding-block: 40px 80px; }
+
+  .masthead {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-bottom: 8px;
+  }
+  .glove { font-size: 34px; line-height: 1; }
+  h1 { font-size: 30px; margin: 0; font-weight: 600; color: var(--ink); }
+  .meta {
+    color: var(--ink-soft);
+    font-size: 14px;
+    margin: 6px 0 32px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid var(--border);
+  }
+  .lede {
+    font-size: 16px;
+    color: var(--ink-soft);
+    margin: 0 0 32px;
+  }
+
+  nav.toc {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 18px 20px;
+    margin-bottom: 40px;
+  }
+  nav.toc div.label {
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--ink-soft);
+    margin-bottom: 10px;
+  }
+  nav.toc ol { margin: 0; padding-left: 22px; }
+  nav.toc li { margin: 4px 0; }
+  nav.toc a { color: var(--ink); text-decoration: none; }
+  nav.toc a:hover { color: var(--accent); text-decoration: underline; }
+
+  section { margin-bottom: 40px; }
+  h2 {
+    font-size: 21px;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    margin: 0 0 14px;
+    padding-top: 8px;
+    border-top: 1px solid var(--border);
+  }
+  section:first-of-type h2 { border-top: none; }
+  h2 .num {
+    font-family: "IBM Plex Sans", sans-serif;
+    color: var(--accent);
+    font-weight: 700;
+    font-size: 15px;
+    background: var(--accent-soft);
+    border-radius: 6px;
+    padding: 2px 8px;
+    flex-shrink: 0;
+  }
+  h3 { font-size: 16px; margin: 20px 0 8px; font-weight: 600; }
+  p { margin: 0 0 12px; }
+  ul { margin: 0 0 12px; padding-left: 22px; }
+  li { margin: 4px 0; }
+  strong { font-weight: 600; }
+  a { color: var(--accent); }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 12px 0 20px;
+    font-size: 14px;
+  }
+  th, td {
+    text-align: left;
+    padding: 8px 10px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  th { color: var(--ink-soft); font-weight: 600; font-size: 12px; text-transform: uppercase; letter-spacing: 0.04em; }
+
+  .callout {
+    background: var(--accent-soft);
+    border-left: 3px solid var(--accent);
+    border-radius: 8px;
+    padding: 14px 16px;
+    font-size: 14px;
+    margin: 16px 0;
+  }
+  .callout strong { color: var(--accent); }
+
+  code, .fill {
+    font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    background: var(--code-bg);
+    border-radius: 4px;
+    padding: 1px 6px;
+    font-size: 0.92em;
+  }
+  .fill { border: 1px dashed var(--ink-soft); }
+
+  footer {
+    margin-top: 60px;
+    padding-top: 20px;
+    border-top: 1px solid var(--border);
+    color: var(--ink-soft);
+    font-size: 13px;
+  }
+
+  @media (max-width: 480px) {
+    h1 { font-size: 24px; }
+    .glove { font-size: 28px; }
+  }
+</style>
+
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+
+<div class="wrap">
+  <div class="masthead">
+    <div class="glove">🥊</div>
+    <h1>Условия использования</h1>
+  </div>
+  <div class="meta">BoxKsarAI · редакция от <span class="fill">20 сентября 2026</span></div>
+
+  <p class="lede">
+    Короткие и понятные правила: что делает Приложение, как работает подписка и чего мы просим не делать.
+  </p>
+
+  <nav class="toc">
+    <div class="label">Разделы</div>
+    <ol>
+      <li><a href="#accept">Согласие с условиями</a></li>
+      <li><a href="#what">Что делает Приложение</a></li>
+      <li><a href="#health">Не медицинская рекомендация</a></li>
+      <li><a href="#free">Бесплатная часть и подписка</a></li>
+      <li><a href="#limits">Лимиты использования</a></li>
+      <li><a href="#content">Ваши видео и материалы</a></li>
+      <li><a href="#rules">Правила использования</a></li>
+      <li><a href="#liability">Ограничение ответственности</a></li>
+      <li><a href="#changes">Изменения условий</a></li>
+      <li><a href="#contact">Контакты</a></li>
+    </ol>
+  </nav>
+
+  <section id="accept">
+    <h2><span class="num">1</span> Согласие с условиями</h2>
+    <p>Устанавливая и используя приложение BoxKsarAI («Приложение»), вы соглашаетесь с этими
+    условиями. Если вы не согласны, не используйте Приложение. Использование Приложения также
+    регулируется <a href="https://ksar2389-cmd.github.io/boxksarai-privacy/">Политикой конфиденциальности</a>.</p>
+  </section>
+
+  <section id="what">
+    <h2><span class="num">2</span> Что делает Приложение</h2>
+    <p>Приложение помогает тренироваться боксу: определяет стиль по тесту и измерениям, предлагает
+    программы тренировок, разбирает загруженные вами видео и готовит план на бой с помощью
+    искусственного интеллекта, отвечает на вопросы в чате с ИИ-тренером.</p>
+    <p><strong>ИИ-тренер — это искусственный интеллект, а не живой человек.</strong> Ответы могут
+    содержать неточности и ошибки. Проверяйте важное и опирайтесь на собственное суждение и на
+    советы живого тренера.</p>
+  </section>
+
+  <section id="health">
+    <h2><span class="num">3</span> Не медицинская рекомендация</h2>
+    <p>Советы, тренировки, разбор техники, пульс и калории в Приложении носят справочный характер
+    и <strong>не являются медицинской рекомендацией</strong> и не заменяют врача. Перед
+    тренировками, особенно при болезнях сердца, травмах, беременности или после долгого перерыва,
+    проконсультируйтесь с врачом. Если вы почувствовали боль, головокружение или одышку,
+    остановитесь. Боксируйте безопасно: используйте защиту и по возможности тренируйтесь под
+    присмотром тренера. Вы занимаетесь на собственный риск.</p>
+  </section>
+
+  <section id="free">
+    <h2><span class="num">4</span> Бесплатная часть и подписка</h2>
+    <p>Бесплатно доступны определение стиля и измерение размаха рук. Остальные функции
+    предоставляются по платной подписке.</p>
+    <ul>
+      <li>Цена, период подписки и состав функций показываются на экране оплаты до покупки.</li>
+      <li>Оплата списывается с вашей учётной записи Apple ID при подтверждении покупки.</li>
+      <li>Подписка продлевается автоматически на тот же период, если не отменить её минимум
+        за 24 часа до конца текущего периода.</li>
+      <li>Управлять подпиской и отменить её можно в настройках Apple ID («Подписки»). Удаление
+        Приложения подписку не отменяет.</li>
+      <li>Возвраты обрабатывает Apple по своим правилам.</li>
+    </ul>
+  </section>
+
+  <section id="limits">
+    <h2><span class="num">5</span> Лимиты использования</h2>
+    <p>Для платных функций разбора видео действуют месячные лимиты и ограничения на размер разбора
+    (например, число разборов в месяц и число видео в одном разборе). Актуальные значения
+    показываются в Приложении. Лимиты нужны, чтобы сервис работал стабильно для всех; мы можем их
+    менять, предупредив в Приложении.</p>
+  </section>
+
+  <section id="content">
+    <h2><span class="num">6</span> Ваши видео и материалы</h2>
+    <p>Загружайте только те видео, на которые у вас есть права: свои записи или материалы, на
+    использование которых у вас есть разрешение. Вы отвечаете за загружаемое содержимое.
+    Мы используем видео только для разбора (см. Политику конфиденциальности) и не публикуем его.</p>
+  </section>
+
+  <section id="rules">
+    <h2><span class="num">7</span> Правила использования</h2>
+    <p>Нельзя:</p>
+    <ul>
+      <li>использовать Приложение для нарушения закона или чужих прав;</li>
+      <li>загружать чужие видео без прав на них, а также материалы, порочащие людей или содержащие
+        насилие вне спортивного контекста;</li>
+      <li>пытаться обойти лимиты, взломать сервис, перегружать его запросами или извлекать
+        внутренние данные;</li>
+      <li>указывать в рейтинге оскорбительные имена или чужие имена, выдавая себя за другого человека.</li>
+    </ul>
+    <p>За нарушение мы можем ограничить доступ к Приложению или убрать запись из рейтинга.</p>
+  </section>
+
+  <section id="liability">
+    <h2><span class="num">8</span> Ограничение ответственности</h2>
+    <p>Приложение предоставляется «как есть». Мы стараемся, чтобы оно работало стабильно и точно, но
+    не гарантируем отсутствие перерывов и ошибок, в том числе в разборе техники и в ответах ИИ.
+    В пределах, допускаемых законом, мы не отвечаем за травмы, ущерб здоровью и убытки, возникшие
+    из-за тренировок по советам Приложения. Это не ограничивает права, которые закон не разрешает
+    ограничивать.</p>
+  </section>
+
+  <section id="changes">
+    <h2><span class="num">9</span> Изменения условий</h2>
+    <p>Мы можем обновлять эти условия. Новая редакция вступает в силу с даты, указанной вверху
+    страницы. Продолжая пользоваться Приложением после обновления, вы принимаете новую редакцию.</p>
+  </section>
+
+  <section id="contact">
+    <h2><span class="num">10</span> Контакты</h2>
+    <p>Вопросы по условиям и подпискам — <span class="fill">ksar2389@gmail.com</span>.</p>
+  </section>
+
+  <footer>
+    BoxKsarAI — <span class="fill">Разработчик: Илья Максарев</span>
+  </footer>
+</div>
